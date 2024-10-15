@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <div>
+        <h1>Survey Form</h1>
+        <hr>
+    </div>
+
+    <!--form start-->
+<form>
+<label>Name: </label>
+<input type="text" id="txtfname" placeholder="Enter name" required autofocus>
+
+<br/>
+<br/>
+<label>Phone Number: </label>
+<input type="text" id="txtphno" placeholder="Enter Phone Number" required>
+
+<br/>
+<br/>
+<label>Gender: </label>
+<input type="radio" id="male" name="gender" value="Male" >
+<label for="male" >Male</label>
+<input type="radio" id="female" value="female" name="gender">
+<label for="female">Female</label>
+<br/>
+<br/>
+<label>Subjects</label>
+<br>
+<br>
+
+
+<input type="checkbox" id="math" name="subject" />
+<label for="math">Math</label>
+
+
+
+<input type="checkbox" id="eng" name="subject" />
+<label for="eng">English</label>
+
+
+<input type="checkbox" id="comp" name="subject" />
+<label for="comp">Computer</label>
+
+<br>
+<br>
+
+<label>Country: </label>
+<select name="country" id="country">
+    <option value="india">India</option>
+    <option value="Pakistan">Pakistan</option>
+</select>
+
+<br>
+<br>
+
+<label>
+    Attach Document
+</label>
+<br>
+<br>
+<input type="file" id="doc">
+
+<br>
+<br>
+
+<label>Comments:</label>
+<br>
+<br>
+<textarea id="txtcomments" rows="4" cols="10"></textarea>
+<br>
+<br>
+<button id="btnsubmit" type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
